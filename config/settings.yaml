@@ -1,0 +1,54 @@
+# MDT-Agent Configuration File
+# ============================================================
+
+# ==================== Primary API Settings ====================
+api:
+  base_url: "https://yunwu.ai/v1"
+  # model_name: "gpt-4o"  # 可根据需要修改
+  model_name: "qwen3-32b"
+  timeout: 120
+  max_retries: 3
+  retry_delay: 2
+
+# ==================== Critical Model (Teacher) ====================
+# 用于 Offline Training 的高级模型，提供诊断错误反馈
+critical_model:
+  base_url: "https://yunwu.ai/v1"
+  model_name: "gpt-4o"  # 使用更强的模型作为 Teacher (gpt-4o 改为 gpt-5)
+  timeout: 180
+  max_retries: 2
+
+# ==================== Embedding Model ====================
+# 用于 Memory Bank 的向量检索 和 Phase 2 P-Node 语义匹配
+embedding:
+  base_url: "https://yunwu.ai/v1"
+  model_name: "text-embedding-3-small"
+  dimension: 1536
+  # Phase 2 Strict Pruning 的相似度阈值
+  similarity_threshold: 0.90  # Embedding 相似度阈值 (严格模式)
+  fuzzy_threshold: 0.80       # Fuzzy Match 阈值 (Fallback 用)
+
+# ==================== Offline Training Settings ====================
+offline_training:
+  max_critique_retries: 3          # 最大重试次数
+  aggregation_step: 5              # 每 N 个成功 Case 聚合一次 Golden Graph
+  golden_graph_dir: "golden_graphs"
+  memory_bank_dir: "memory_bank"
+  log_dir: "logs"
+  max_workers: 5                   # 并发处理 Case 的线程数（建议 5-10）
+  batch_aggregation: true          # 批量聚合模式（并发完成后统一聚合，避免锁竞争）
+
+# ==================== Phase Thresholds ====================
+phase1:
+  confidence_threshold: 0.90  # 90% confidence threshold for fast path
+
+# ==================== Processing Settings ====================
+processing:
+  max_workers: 4  # 并发处理数量
+  batch_size: 10  # 批处理大小
+
+
+
+
+
+

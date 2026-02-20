@@ -1,0 +1,251 @@
+{
+  "original": {
+    "total_records": 21218,
+    "total_pathologies": 46,
+    "min_count": 3,
+    "max_count": 3998,
+    "avg_count": 461.2608695652174
+  },
+  "balanced": {
+    "total_records": 853,
+    "total_pathologies": 46,
+    "samples_per_pathology": 3
+  },
+  "pathology_details": {
+    "01": {
+      "name": "Possible NSTEMI / STEMI",
+      "original_count": 1598,
+      "balanced_count": 20
+    },
+    "02": {
+      "name": "Spontaneous rib fracture",
+      "original_count": 519,
+      "balanced_count": 20
+    },
+    "03": {
+      "name": "Pulmonary embolism",
+      "original_count": 925,
+      "balanced_count": 20
+    },
+    "04": {
+      "name": "Pulmonary neoplasm",
+      "original_count": 486,
+      "balanced_count": 20
+    },
+    "05": {
+      "name": "URTI",
+      "original_count": 1461,
+      "balanced_count": 20
+    },
+    "06": {
+      "name": "Croup",
+      "original_count": 20,
+      "balanced_count": 20
+    },
+    "07": {
+      "name": "Sarcoidosis",
+      "original_count": 140,
+      "balanced_count": 20
+    },
+    "08": {
+      "name": "HIV (initial infection)",
+      "original_count": 28,
+      "balanced_count": 20
+    },
+    "09": {
+      "name": "Inguinal hernia",
+      "original_count": 14,
+      "balanced_count": 14
+    },
+    "10": {
+      "name": "Spontaneous pneumothorax",
+      "original_count": 1071,
+      "balanced_count": 20
+    },
+    "11": {
+      "name": "Bronchospasm / acute asthma exacerbation",
+      "original_count": 216,
+      "balanced_count": 20
+    },
+    "12": {
+      "name": "Viral pharyngitis",
+      "original_count": 299,
+      "balanced_count": 20
+    },
+    "13": {
+      "name": "Bronchiolitis",
+      "original_count": 8,
+      "balanced_count": 8
+    },
+    "14": {
+      "name": "Pancreatic neoplasm",
+      "original_count": 69,
+      "balanced_count": 20
+    },
+    "15": {
+      "name": "Guillain-Barré syndrome",
+      "original_count": 69,
+      "balanced_count": 20
+    },
+    "16": {
+      "name": "Chagas",
+      "original_count": 98,
+      "balanced_count": 20
+    },
+    "17": {
+      "name": "Allergic sinusitis",
+      "original_count": 188,
+      "balanced_count": 20
+    },
+    "18": {
+      "name": "Acute rhinosinusitis",
+      "original_count": 37,
+      "balanced_count": 20
+    },
+    "19": {
+      "name": "PSVT",
+      "original_count": 306,
+      "balanced_count": 20
+    },
+    "20": {
+      "name": "Panic attack",
+      "original_count": 143,
+      "balanced_count": 20
+    },
+    "21": {
+      "name": "Epiglottitis",
+      "original_count": 19,
+      "balanced_count": 19
+    },
+    "22": {
+      "name": "Bronchiectasis",
+      "original_count": 576,
+      "balanced_count": 20
+    },
+    "23": {
+      "name": "Bronchitis",
+      "original_count": 3998,
+      "balanced_count": 20
+    },
+    "24": {
+      "name": "Pericarditis",
+      "original_count": 382,
+      "balanced_count": 20
+    },
+    "25": {
+      "name": "Acute COPD exacerbation / infection",
+      "original_count": 1152,
+      "balanced_count": 20
+    },
+    "26": {
+      "name": "Ebola",
+      "original_count": 3,
+      "balanced_count": 3
+    },
+    "27": {
+      "name": "Chronic rhinosinusitis",
+      "original_count": 20,
+      "balanced_count": 20
+    },
+    "28": {
+      "name": "Acute otitis media",
+      "original_count": 9,
+      "balanced_count": 9
+    },
+    "30": {
+      "name": "Influenza",
+      "original_count": 1026,
+      "balanced_count": 20
+    },
+    "31": {
+      "name": "Stable angina",
+      "original_count": 30,
+      "balanced_count": 20
+    },
+    "32": {
+      "name": "Myasthenia gravis",
+      "original_count": 31,
+      "balanced_count": 20
+    },
+    "33": {
+      "name": "Myocarditis",
+      "original_count": 463,
+      "balanced_count": 20
+    },
+    "34": {
+      "name": "SLE",
+      "original_count": 398,
+      "balanced_count": 20
+    },
+    "35": {
+      "name": "GERD",
+      "original_count": 125,
+      "balanced_count": 20
+    },
+    "36": {
+      "name": "Anemia",
+      "original_count": 170,
+      "balanced_count": 20
+    },
+    "37": {
+      "name": "Cluster headache",
+      "original_count": 9,
+      "balanced_count": 9
+    },
+    "39": {
+      "name": "Anaphylaxis",
+      "original_count": 19,
+      "balanced_count": 19
+    },
+    "40": {
+      "name": "Atrial fibrillation",
+      "original_count": 192,
+      "balanced_count": 20
+    },
+    "41": {
+      "name": "Acute pulmonary edema",
+      "original_count": 685,
+      "balanced_count": 20
+    },
+    "42": {
+      "name": "Acute laryngitis",
+      "original_count": 282,
+      "balanced_count": 20
+    },
+    "43": {
+      "name": "Acute dystonic reactions",
+      "original_count": 87,
+      "balanced_count": 20
+    },
+    "44": {
+      "name": "Boerhaave",
+      "original_count": 336,
+      "balanced_count": 20
+    },
+    "45": {
+      "name": "Pneumonia",
+      "original_count": 2050,
+      "balanced_count": 20
+    },
+    "46": {
+      "name": "Tuberculosis",
+      "original_count": 628,
+      "balanced_count": 20
+    },
+    "48": {
+      "name": "Unstable angina",
+      "original_count": 821,
+      "balanced_count": 20
+    },
+    "49": {
+      "name": "Scombroid food poisoning",
+      "original_count": 12,
+      "balanced_count": 12
+    }
+  },
+  "sampling_config": {
+    "strategy": "capped",
+    "target_samples": 20,
+    "seed": 42
+  }
+}
